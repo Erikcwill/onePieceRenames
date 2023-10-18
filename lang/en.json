@@ -1,0 +1,12 @@
+{
+  "ITEM.TypeBackground": "Profession",
+  "ITEM.TypeBackgroundPl": "Professions",
+  "TYPES.Item.background": "Profession",
+  "TYPES.Item.backgroundPl": "Professions",
+  "DND5E.Background": "Profession",
+  "DND5E.BackgroundName": "Profession Name",
+  "DND5E.Feature.Background": "Profession Feature",
+  "ITEM.TypeClassPl": "Combat Style",
+  "TYPES.Item.classPl": "Combat Style",
+  "DND5E.AdvancementClassRestrictionNone": "All Combat Styles"
+}

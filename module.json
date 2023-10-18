@@ -1,0 +1,33 @@
+{
+  "title": "One Piece Replacement Names",
+  "description": "Replaces some dnd default system names to match OnePiece system names",
+  "version": "1.0.0",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "",
+  "id": "onePieceRenames",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Erikcwill"
+    }
+  ]
+}
