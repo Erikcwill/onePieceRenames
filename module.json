@@ -10,7 +10,7 @@
       "flags": {}
     }
   ],
-  "manifest": "",
+  "manifest": "https://raw.githubusercontent.com/Erikcwill/onePieceRenames/main/module.json",
   "id": "onePieceRenames",
   "relationships": {
     "systems": [
