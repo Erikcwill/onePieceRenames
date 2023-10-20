@@ -22,10 +22,10 @@
     "scripts/op-features-types.js",
     "scripts/op-render-details.js"
   ],
+  "id": "op-dnd-replacements",
   "styles": ["styles/op-dnd-replacements.css"],
   "manifest": "https://raw.githubusercontent.com/Erikcwill/onePieceRenames/main/module.json",
-
-  "id": "op-dnd-replacements",
+  "download": "https://github.com/Erikcwill/onePieceRenames/releases/download/FoundryVtt/op-dnd-replacements.zip",
 
   "relationships": {
     "systems": [
