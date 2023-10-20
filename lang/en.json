@@ -3,10 +3,28 @@
   "ITEM.TypeBackgroundPl": "Professions",
   "TYPES.Item.background": "Profession",
   "TYPES.Item.backgroundPl": "Professions",
+  "ITEM.TypeClassPl": "Combat Style",
+  "TYPES.Item.classPl": "Combat Style",
+
   "DND5E.Background": "Profession",
   "DND5E.BackgroundName": "Profession Name",
   "DND5E.Feature.Background": "Profession Feature",
-  "ITEM.TypeClassPl": "Combat Style",
-  "TYPES.Item.classPl": "Combat Style",
-  "DND5E.AdvancementClassRestrictionNone": "All Combat Styles"
+  "DND5E.AdvancementClassRestrictionNone": "All Combat Styles",
+  "DND5E.Bonds": "Dreams",
+  "DND5E.Flaws": "Reward",
+  "DND5E.PersonalityTraits": "Honor Code",
+  "DND5E.Ideals": "Nickname",
+
+  "DND5E.Alignment": "Path",
+  "DND5E.AlignmentCE": "Chaotic Evil",
+  "DND5E.AlignmentCG": "Chaotic Good",
+  "DND5E.AlignmentCN": "Chaotic Neutral",
+  "DND5E.AlignmentLE": "Lawful Evil",
+  "DND5E.AlignmentLG": "Lawful Good",
+  "DND5E.AlignmentLN": "Lawful Neutral",
+  "DND5E.AlignmentNE": "Neutral Evil",
+  "DND5E.AlignmentNG": "Neutral Good",
+  "DND5E.AlignmentTN": "True Neutral"
+
+  
 }

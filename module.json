@@ -8,10 +8,18 @@
       "name": "English",
       "path": "lang/en.json",
       "flags": {}
+    },
+    {
+      "lang": "pt-br",
+      "name": "Brazilian Portuguese",
+      "path": "lang/pt-br.json",
+      "flags": {}
     }
   ],
+  "scripts": ["scripts/op-dnd-replacements.js", "scripts/op-features-types.js", "scripts/op-render-details.js"],
+  "styles": ["styles/op-dnd-replacements.css"],
   "manifest": "",
-  "id": "onePieceRenames",
+  "id": "op-dnd-replacements",
   "relationships": {
     "systems": [
       {
@@ -27,7 +35,8 @@
   },
   "authors": [
     {
-      "name": "Erikcwill"
+      "name": "Erikcwill",
+      "flags": {}
     }
   ]
 }
