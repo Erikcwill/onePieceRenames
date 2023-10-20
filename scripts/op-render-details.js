@@ -23,6 +23,8 @@ Hooks.on("renderActorSheet", (app, html, data) => {
   // Define o tamanho da imagem (largura e altura) em pixels.
   const imageSizeHeight = "14px"; // Ajuste para a altura desejada.
   const imageSizeWidth = "14px"; // Ajuste para a largura desejada.
+  const imageSizeHeightInventory = "30px"; // Ajuste para a altura desejada.
+  const imageSizeWidthInventory = "18px"; // Ajuste para a largura desejada.
 
   // Crie um novo <span> com o valor de "bond".
   const bondSpan = `<span class="origin-summary-text" data-tooltip="bond" data-placeholder="Bond"><h4>${bondValue}</h4></span>`;
@@ -45,17 +47,16 @@ Hooks.on("renderActorSheet", (app, html, data) => {
   // Adicione os novos elementos (imagem e spans) à primeira <li> dentro da <ul> "origin-summary".
   firstLi.append(idealSpan);
   firstLi.append(flawSpan);
-});
 
-Hooks.on("renderSomeSheet", (app, html, data) => {
-  // Encontre o elemento <i> com a classe "fas fa-coins".
-  const coinsIcon = html.find(".currency-header i.fas.fa-coins");
+  const customImageLi = `<li class="custom-image-li" style="width: ${imageSizeWidthInventory}; height: ${imageSizeHeightInventory}; margin-right:8px;"><img src="${imagePath} "></li> `;
 
-  // Verifique se o ícone padrão foi encontrado.
-  if (coinsIcon.length > 0) {
-    // Substitua o ícone padrão pelo seu ícone personalizado.
-    const customIconPath = "modules/op-dnd-replacements/assets/icons/belly-simbol.png"; // Atualize o caminho do ícone personalizado.
-    coinsIcon.attr("class", "fas fa-custom-icon"); // Substitua a classe de ícone para seu ícone personalizado.
-    coinsIcon.css("background-image", `url("${customIconPath}")`);
+  // Encontre a última <li> dentro da classe "currency".
+  const currencyList = html.find("ol.currency");
+  const lastCurrencyItem = currencyList.find("li:last");
+
+  // Verifique se a última <li> foi encontrada.
+  if (lastCurrencyItem.length > 0) {
+    // Insira o novo elemento <li> antes da última <li>.
+    lastCurrencyItem.before(customImageLi);
   }
 });
