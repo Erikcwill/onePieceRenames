@@ -16,10 +16,17 @@
       "flags": {}
     }
   ],
-  "scripts": ["scripts/op-dnd-replacements.js", "scripts/op-features-types.js", "scripts/op-render-details.js"],
+
+  "scripts": [
+    "scripts/op-dnd-replacements.js",
+    "scripts/op-features-types.js",
+    "scripts/op-render-details.js"
+  ],
   "styles": ["styles/op-dnd-replacements.css"],
   "manifest": "",
+
   "id": "op-dnd-replacements",
+
   "relationships": {
     "systems": [
       {
