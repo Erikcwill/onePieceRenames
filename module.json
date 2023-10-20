@@ -23,7 +23,7 @@
     "scripts/op-render-details.js"
   ],
   "styles": ["styles/op-dnd-replacements.css"],
-  "manifest": "",
+  "manifest": "https://raw.githubusercontent.com/Erikcwill/onePieceRenames/main/module.json",
 
   "id": "op-dnd-replacements",
 
