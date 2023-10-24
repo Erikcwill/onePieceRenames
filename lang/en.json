@@ -5,6 +5,8 @@
   "TYPES.Item.backgroundPl": "Professions",
   "ITEM.TypeClassPl": "Combat Style",
   "TYPES.Item.classPl": "Combat Style",
+  "TYPES.Item.class": "Combat Style",
+  "ITEM.TypeClass": "Combat Style",
 
   "DND5E.Background": "Profession",
   "DND5E.BackgroundName": "Profession Name",
@@ -25,6 +27,4 @@
   "DND5E.AlignmentNE": "Neutral Evil",
   "DND5E.AlignmentNG": "Neutral Good",
   "DND5E.AlignmentTN": "True Neutral"
-
-  
 }

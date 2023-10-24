@@ -1,4 +1,42 @@
-#Tidy5eSheet-Actor-1iAweSYjH3b2W4HH {
-  height: 900px;
-  width: 850px;
+/*Diminui o espaçamento das linhas entre onde mostram os as informações no top da tela*/
+.app.window-app.tidy5e.sheet.actor.character
+  > section
+  > form
+  > div
+  > header
+  > div
+  > ul {
+  line-height: 1.3;
+}
+/*Remove os simbolo padrão da currency da ficha para dicionar o simbolo de berrie atravez de script*/
+.app.window-app.tidy5e.sheet.actor.character
+  > section
+  > form
+  > div
+  > section.sheet-body
+  > div.tab.inventory.active
+  > div.inventory-footer
+  > div.inventory-currency
+  > ol
+  > li.currency-header
+  > i {
+  display: none;
+}
+
+/*Atrasa o simbolo de berrie para ele funcionar aparecer de maneira mais agradável*/
+.app.window-app.tidy5e.sheet.actor.character
+  > section
+  > form
+  > div
+  > section.sheet-body
+  > div.tab.inventory.active
+  > div.inventory-footer
+  > div.inventory-currency
+  > ol {
+  margin-left: -50px;
+}
+
+/*Aumenta a largura minima da ficha para todos os dados aparecerem corretamente*/
+.app.window-app.tidy5e.sheet.actor.character {
+  min-width: 850px;
 }

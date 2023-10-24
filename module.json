@@ -28,10 +28,29 @@
   "download": "https://github.com/Erikcwill/onePieceRenames/releases/download/FoundryVtt/op-dnd-replacements.zip",
 
   "relationships": {
+    "requires": [
+      {
+        "id": "world-currency-5e",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "tidy5e-sheet",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
     "systems": [
       {
         "id": "dnd5e",
         "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "dnd5e-system-customizer",
+        "type": "module",
         "compatibility": {}
       }
     ]
